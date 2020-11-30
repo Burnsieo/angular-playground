@@ -12,6 +12,18 @@ export class ToDosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.todos = [
+      {
+        id: 1,
+        title: 'First ToDo',
+        completed: false
+      },
+      {
+        id: 2,
+        title: 'Second ToDo',
+        completed: false
+      }
+    ]
   }
 
 }
