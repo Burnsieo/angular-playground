@@ -17,9 +17,10 @@ header {
     background: $primary;
     padding: 1em 0;
 
+
     a {
         color: white;
-        text-decoration: none;
+        text-decoration: none; 
     }
 
     a.logo {
@@ -28,6 +29,7 @@ header {
 
     nav {
         float: right;
+        margin-top: 1em;   
 
         ul {
             list-style-type: none;
