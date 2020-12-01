@@ -1,5 +1,7 @@
 <p>to-dos works!</p>
 
 <ul *ngFor="let todo of todos">
+    <li>{{ todo.id }}</li>
     <li>{{ todo.title }}</li>
+    <li>{{ todo.completed }}</li>
 </ul>
