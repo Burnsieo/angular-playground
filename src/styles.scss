@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
 
-$primary: rgb(112, 6, 29);
+$primary: rgb(13, 106, 212);
 
 body {
     margin: 0;
     font-family: 'Trispace', 'sans-serif';
     font-size: 18px;
+    background-image: url('./assets/pawel-czerwinski-bb5o2RqHZoU-unsplash.jpg');
 }
 
 .container {
@@ -19,7 +20,7 @@ header {
 
 
     a {
-        color: white;
+        color: black;
         text-decoration: none; 
     }
 
