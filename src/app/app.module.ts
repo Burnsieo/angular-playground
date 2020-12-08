@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ToDosComponent } from './components/to-dos/to-dos.component';
 import { ListComponent } from './components/list/list.component';
 import { HomeComponent } from './components/home/home.component';
+import { TodoItemComponent } from './components/todo-item/todo-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToDosComponent,
     ListComponent,
-    HomeComponent
+    HomeComponent,
+    TodoItemComponent
   ],
   imports: [
     BrowserModule,

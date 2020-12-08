@@ -1,7 +1,4 @@
 <h1>To Do works!</h1>
 
-<ul *ngFor="let todo of todos">
-    <li>{{ todo.id }}</li>
-    <li>{{ todo.title }}</li>
-    <li>{{ todo.completed }}</li>
-</ul>
+<app-todo-item *ngFor="let todo of todos" [todo]="todo">  
+</app-todo-item>
